@@ -1,0 +1,74 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package javaapplication11;
+import java.util.Scanner;
+/**
+ *
+ * @author Aluno
+ */
+public class JavaApplication11 {
+static int soma (int a, int b) {
+int resultado = a+b;
+return resultado;
+
+}
+static int produto (int a, int b) {
+int resultado = a*b; 
+ return resultado;
+  
+}
+ static int divisao (int a, int b) {
+int resultado = a/b; 
+ return resultado;
+}
+ 
+ static int subtracao (int a, int b) {
+int resultado = a-b;
+ return resultado;
+         
+}   
+ 
+static void menu(){ 
+    System.out.println("essa calculadora realiza a principais operações matematica");
+    System.out.println ("1 soma");
+    System.out.println ("2 produto");
+    System.out.println ("3 divisão");
+    System.out.println ("4 subtração");
+    Scanner sc = new Scanner (System.in);
+    int operacao = sc.nextInt();
+     System.out.println("primeiro número");
+     int a = sc.nextInt ();
+     System.out.println("segundo numero");
+     int b = sc.nextInt ();
+     
+     switch (operacao){
+         
+         case 1:
+         System.out.println(soma(a,b));
+         break;
+         case 2:
+         System.out.println(soma(a,b));
+         break;
+         case 3:
+         System.out.println(soma(a,b));
+         break;
+         case 4:
+         System.out.println(soma(a,b));
+         break;
+     }
+}    
+    /**
+     * @param args the command line arguments
+     * 
+     */
+   
+    public static void main(String[] args) {
+        menu();
+      
+     
+        // TODO code application logic here
+   }
+   
+}
